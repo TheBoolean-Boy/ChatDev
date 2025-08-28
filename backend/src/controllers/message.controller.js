@@ -53,7 +53,7 @@ export const sendMessage = async(req, res) => {
       image: imageUrl
     })
 
-    await 
+    await newMessage.save();
   } catch (error) {
     
   }
