@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 24 24" fill="none">
+  <!-- Chat bubble outline -->
+  <path d="M21 11.5C21 16.1944 16.9706 20 12 20C10.8225 20 9.699 19.7937 8.67313 19.4208L4 21L5.16806 16.7441C3.81257 15.2938 3 13.471 3 11.5C3 6.80558 7.02944 3 12 3C16.9706 3 21 6.80558 21 11.5Z"
+        stroke="#C084FC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Left angle bracket -->
+  <path d="M10 9L7 12L10 15" stroke="#C084FC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Right angle bracket -->
+  <path d="M14 9L17 12L14 15" stroke="#C084FC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
