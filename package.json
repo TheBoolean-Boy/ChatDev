@@ -1,0 +1,21 @@
+{
+  "name": "chatdev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBoolean-Boy/ChatDev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBoolean-Boy/ChatDev/issues"
+  },
+  "homepage": "https://github.com/TheBoolean-Boy/ChatDev#readme",
+  "description": ""
+}
