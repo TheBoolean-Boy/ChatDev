@@ -1,11 +1,1 @@
-import mongoose from "mongoose"
-
-export const connectDB = async() => {
-  try {
-    const conn = await mongoose.connect(process.env.MONGODB_URI);
-    console.log(`MongoDB connnected at ${conn.connection.host}`)
-  } catch (error) {
-    console.log(`Error Connecting to DB: ${error.message}`)
-    process.exit(1)
-  }
-}
+"import mongoose from 'mongoose';\n\nconst connectDB = async () => {\n  try {\n    await mongoose.connect(process.env.MONGO_URI, {\n      useNewUrlParser: true,\n      useUnifiedTopology: true,\n    });\n    console.log('MongoDB connected');\n  } catch (err) {\n    console.error('DB connection error:', err);\n    process.exit(1);\n  }\n};\n\nexport default connectDB;"
